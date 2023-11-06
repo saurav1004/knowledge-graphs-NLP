@@ -1,0 +1,127 @@
+data scraping used for extracting data from websites this article needs additional citations for verification
+please help improve this article by adding citations to reliable sources
+"unsourced material may be challenged and removed find sources ""web scraping"" – news · newspapers · books · scholar · jstor (april 2023) (learn how and when to remove this template message) for broader coverage of this topic see data scraping"
+web scraping web harvesting or web data extraction is data scraping used for extracting data from websites
+[1] web scraping software may directly access the world wide web using the hypertext transfer protocol or a web browser
+while web scraping can be done manually by a software user the term typically refers to automated processes implemented using a bot or web crawler
+it is a form of copying in which specific data is gathered and copied from the web typically into a central local database or spreadsheet for later retrieval or analysis
+scraping a web page involves fetching it and extracting from it
+fetching is the downloading of a page (which a browser does when a user views a page)
+therefore web crawling is a main component of web scraping to fetch pages for later processing
+once fetched extraction can take place
+the content of a page may be parsed searched and reformatted and its data copied into a spreadsheet or loaded into a database
+web scrapers typically take something out of a page to make use of it for another purpose somewhere else
+an example would be finding and copying names and telephone numbers companies and their urls or e mail addresses to a list (contact scraping)
+as well as contact scraping web scraping is used as a component of applications used for web indexing web mining and data mining online price change monitoring and price comparison product review scraping (to watch the competition) gathering real estate listings weather data monitoring website change detection research tracking online presence and reputation web mashup and web data integration
+web pages are built using text based mark up languages (html and xhtml) and frequently contain a wealth of useful data in text form
+however most web pages are designed for human end users and not for ease of automated use
+as a result specialized tools and software have been developed to facilitate the scraping of web pages
+newer forms of web scraping involve monitoring data feeds from web servers
+for example json is commonly used as a transport mechanism between the client and the web server
+there are methods that some websites use to prevent web scraping such as detecting and disallowing bots from crawling (viewing) their pages
+in response there are web scraping systems that rely on using techniques in dom parsing computer vision and natural language processing to simulate human browsing to enable gathering web page content for offline parsing this section does not cite any sources
+please help improve this section by adding citations to reliable sources
+unsourced material may be challenged and removed
+(october 2018) (learn how and when to remove this template message) the history of web scraping dates back nearly to the time when the world wide web was born
+after the birth of the world wide web in 1989 the first web robot [2] world wide web wanderer was created in june 1993 which was intended only to measure the size of the web
+in december 1993 the first crawler based web search engine jumpstation was launched
+as there were fewer websites available on the web search engines at that time used to rely on human administrators to collect and format links
+in comparison jumpstation was the first ww search engine to rely on a web robot
+in 200 the first web api and api crawler were created
+an api (application programming interface) is an interface that makes it much easier to develop a program by providing the building blocks
+in 200 salesforce and ebay launched their own api with which programmers could access and download some of the data available to the public
+since then many websites offer web apis for people to access their public database
+web scraping is the process of automatically mining data or collecting information from the world wide web
+it is a field with active developments sharing a common goal with the semantic web vision an ambitious initiative that still requires breakthroughs in text processing semantic understanding artificial intelligence and human computer interactions
+the simplest form of web scraping is manually copying and pasting data from a web page into a text file or spreadsheet
+sometimes even the best web scraping technology cannot replace a human's manual examination and copy and paste and sometimes this may be the only workable solution when the websites for scraping explicitly set up barriers to prevent machine automation
+a simple yet powerful approach to extract information from web pages can be based on the unix grep command or regular expression matching facilities of programming languages (for instance perl or python)
+static and dynamic web pages can be retrieved by posting http requests to the remote web server using socket programming
+many websites have large collections of pages generated dynamically from an underlying structured source like a database
+data of the same category are typically encoded into similar pages by a common script or template
+in data mining a program that detects such templates in a particular information source extracts its content and translates it into a relational form is called a wrapper
+wrapper generation algorithms assume that input pages of a wrapper induction system conform to a common template and that they can be easily identified in terms of a url common scheme
+[3] moreover some semi structured data query languages such as xquery and the htql can be used to parse html pages and to retrieve and transform page content
+further information document object model by embedding a full fledged web browser such as the internet explorer or the mozilla browser control programs can retrieve the dynamic content generated by client side scripts
+these browser controls also parse web pages into a dom tree based on which programs can retrieve parts of the pages
+languages such as xpath can be used to parse the resulting dom tree
+there are several companies that have developed vertical specific harvesting platforms
+"these platforms create and monitor a multitude of ""bots"" for specific verticals with no ""man in the loop"" (no direct human involvement) and no work related to a specific target site"
+the preparation involves establishing the knowledge base for the entire vertical and then the platform creates the bots automatically
+the platform's robustness is measured by the quality of the information it retrieves (usually number of fields) and its scalability (how quick it can scale up to hundreds or thousands of sites)
+this scalability is mostly used to target the long tail of sites that common aggregators find complicated or too labor intensive to harvest content from
+the pages being scraped may embrace metadata or semantic markups and annotations which can be used to locate specific data snippets
+if the annotations are embedded in the pages as microformat does this technique can be viewed as a special case of dom parsing
+in another case the annotations organized into a semantic layer [4] are stored and managed separately from the web pages so the scrapers can retrieve data schema and instructions from this layer before scraping the pages
+there are efforts using machine learning and computer vision that attempt to identify and extract information from web pages by interpreting pages visually as a human being might
+[5] there are many software tools available that can be used to customize web scraping solutions
+this software may attempt to automatically recognize the data structure of a page or provide a recording interface that removes the necessity to manually write web scraping code or some scripting functions that can be used to extract and transform content and database interfaces that can store the scraped data in local databases
+some web scraping software can also be used to extract data from an api directly
+the examples and perspective in this section deal primarily with the united states and do not represent a worldwide view of the subject
+you may improve this section discuss the issue on the talk page or create a new section as appropriate
+(october 2015) (learn how and when to remove this template message) the legality of web scraping varies across the world
+in general web scraping may be against the terms of service of some websites but the enforceability of these terms is unclear
+"[6] in the united states website owners can use three major legal claims to prevent undesired web scraping (1) copyright infringement (compilation) (2) violation of the computer fraud and abuse act (""cfaa"") and (3) trespass to chattel"
+[7] however the effectiveness of these claims relies upon meeting various criteria and the case law is still evolving
+for example with regard to copyright while outright duplication of original expression will in many cases be illegal in the united states the courts ruled in feist publications v rural telephone service that duplication of facts is allowable
+"u s courts have acknowledged that users of ""scrapers"" or ""robots"" may be held liable for committing trespass to chattels [8][9] which involves a computer system itself being considered personal property upon which the user of a scraper is trespassing"
+the best known of these cases ebay v bidder's edge resulted in an injunction ordering bidder's edge to stop accessing collecting and indexing auctions from the ebay web site
+this case involved automatic placing of bids known as auction sniping
+however in order to succeed on a claim of trespass to chattels the plaintiff must demonstrate that the defendant intentionally and without authorization interfered with the plaintiff's possessory interest in the computer system and that the defendant's unauthorized use caused damage to the plaintiff
+not all cases of web spidering brought before the courts have been considered trespass to chattels
+[10] one of the first major tests of screen scraping involved american airlines (aa) and a firm called farechase
+[11] aa successfully obtained an injunction from a texas trial court stopping farechase from selling software that enables users to compare online fares if the software also searches aa's website
+the airline argued that farechase's websearch software trespassed on aa's servers when it collected the publicly available data
+farechase filed an appeal in march 2003
+by june farechase and aa agreed to settle and the appeal was dropped
+[12] southwest airlines has also challenged screen scraping practices and has involved both farechase and another firm outtask in a legal claim
+"southwest airlines charged that the screen scraping is illegal since it is an example of ""computer fraud and abuse"" and has led to ""damage and loss"" and ""unauthorized access"" of southwest's site"
+"it also constitutes ""interference with business relations"" ""trespass"" and ""harmful access by computer"""
+"they also claimed that screen scraping constitutes what is legally known as ""misappropriation and unjust enrichment"" as well as being a breach of the web site's user agreement"
+outtask denied all these claims claiming that the prevailing law in this case should be us copyright law and that under copyright the pieces of information being scraped would not be subject to copyright protection
+although the cases were never resolved in the supreme court of the united states farechase was eventually shuttered by parent company yahoo and outtask was purchased by travel expense company concur
+[13] in 2012 a startup called 3taps scraped classified housing ads from craigslist
+craigslist sent 3taps a cease and desist letter and blocked their ip addresses and later sued in craigslist v 3taps
+the court held that the cease and desist letter and ip blocking was sufficient for craigslist to properly claim that 3taps had violated the computer fraud and abuse act
+although these are early scraping decisions and the theories of liability are not uniform it is difficult to ignore a pattern emerging that the courts are prepared to protect proprietary content on commercial sites from uses which are undesirable to the owners of such sites
+however the degree of protection for such content is not settled and will depend on the type of access made by the scraper the amount of information accessed and copied the degree to which the access adversely affects the site owner's system and the types and manner of prohibitions on such conduct
+[14] while the law in this area becomes more settled entities contemplating using scraping programs to access a public web site should also consider whether such action is authorized by reviewing the terms of use and other terms or notices posted on or made available through the site
+in a 2010 ruling in the cvent inc v eventbrite inc
+in the united states district court for the eastern district of virginia the court ruled that the terms of use should be brought to the users' attention in order for a browse wrap contract or license to be enforced
+[15] in a 2014 case filed in the united states district court for the eastern district of pennsylvania [16] e commerce site qvc objected to the pinterest like shopping aggregator resultly's 'scraping of qvc's site for real time pricing data
+"qvc alleges that resultly ""excessively crawled"" qvc's retail site (allegedly sending 200 300 search requests to qvc's website per minute sometimes to up to 36 00 requests per minute) which caused qvc's site to crash for two days resulting in lost sales for qvc"
+[17] qvc's complaint alleges that the defendant disguised its web crawler to mask its source ip address and thus prevented qvc from quickly repairing the problem
+this is a particularly interesting scraping case because qvc is seeking damages for the unavailability of their website which qvc claims was caused by resultly
+in the plaintiff's web site during the period of this trial the terms of use link are displayed among all the links of the site at the bottom of the page as most sites on the internet
+this ruling contradicts the irish ruling described below
+the court also rejected the plaintiff's argument that the browse wrap restrictions were enforceable in view of virginia's adoption of the uniform computer information transactions act (ucita)—a uniform law that many believed was in favor on common browse wrap contracting practices
+[18] in facebook inc v power ventures inc a district court ruled in 2012 that power ventures could not scrape facebook pages on behalf of a facebook user
+the case is on appeal and the electronic frontier foundation filed a brief in 2015 asking that it be overturned
+[19][20] in associated press v meltwater u s holdings inc a court in the us held meltwater liable for scraping and republishing news information from the associated press but a court in the united kingdom held in favor of meltwater
+internet archive collects and distributes a significant number of publicly available web pages without being considered to be in violation of copyright laws
+in february 2006 the danish maritime and commercial court (copenhagen) ruled that systematic crawling indexing and deep linking by portal site ofir dk of estate site home dk does not conflict with danish law or the database directive of the european union
+[21] in a february 2010 case complicated by matters of jurisdiction ireland's high court delivered a verdict that illustrates the inchoate state of developing case law
+"in the case of ryanair ltd v billigfluege de gmbh ireland's high court ruled ryanair's ""click wrap"" agreement to be legally binding"
+in contrast to the findings of the united states district court eastern district of virginia and those of the danish maritime and commercial court justice michael hanna ruled that the hyperlink to ryanair's terms and conditions was plainly visible and that placing the onus on the user to agree to terms and conditions in order to gain access to online services is sufficient to comprise a contractual relationship
+[22] the decision is under appeal in ireland's supreme court
+[23] on april 30 2020 the french data protection authority (cnil) released new guidelines on web scraping
+[24] the cnil guidelines made it clear that publicly available data is still personal data and cannot be repurposed without the knowledge of the person to whom that data belongs
+[25] in australia the spam act 2003 outlaws some forms of web harvesting although this only applies to email addresses
+[26][27] leaving a few cases dealing with ipr infringement indian courts have not expressly ruled on the legality of web scraping
+however since all common forms of electronic contracts are enforceable in india violating the terms of use prohibiting data scraping will be a violation of the contract law
+it will also violate the information technology act 200 which penalizes unauthorized access to a computer resource or extracting data from a computer resource
+the administrator of a website can use various measures to stop or slow a bot
+some techniques include blocking an ip address either manually or based on criteria such as geolocation and dnsrbl
+this will also block all browsing from that address
+disabling any web service api that the website's system might expose
+bots sometimes declare who they are (using user agent strings) and can be blocked on that basis using robots txt 'googlebot' is an example
+other bots make no distinction between themselves and a human using a browser
+bots can be blocked by monitoring excess traffic bots can sometimes be blocked with tools to verify that it is a real person accessing the site like a captcha
+bots are sometimes coded to explicitly break specific captcha patterns or may employ third party services that utilize human labor to read and respond in real time to captcha challenges
+commercial anti bot services companies offer anti bot and anti scraping services for websites
+a few web application firewalls have limited bot detection capabilities as well
+however many such solutions are not very effective
+[28] locating bots with a honeypot or other method to identify the ip addresses of automated crawlers
+obfuscation using css sprites to display such data as telephone numbers or email addresses at the cost of accessibility to screen reader users
+because bots rely on consistency in the front end code of a target website adding small variations to the html/css surrounding important data and navigation elements would require more human involvement in the initial set up of a bot and if done effectively may render the target website too difficult to scrape due to the diminished ability to automate the scraping process
+websites can declare if crawling is allowed or not in the robots txt file and allow partial access limit the crawl rate specify the optimal time to crawl and more
