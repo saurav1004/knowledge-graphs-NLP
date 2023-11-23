@@ -38,7 +38,7 @@ This repository houses a comprehensive project focused on leveraging Large Langu
 To get started with this project, clone the repository and install the required dependencies. Ensure you have Python and the necessary libraries installed. Follow the specific instructions in each subdirectory for running individual scripts and modules.
 
 ```bash
-git clone https://github.com/your-repo/LLM.git
+git clone https://github.com/saurav1004/knowledge-graphs-NLP.git
 cd LLM
 ```
 ## Usage
