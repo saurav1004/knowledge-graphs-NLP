@@ -1,4 +1,4 @@
-# REALMs for Research Project
+# REALMs for Research
 
 `REALMs - REtrieval Augmented Language Models` 
 
